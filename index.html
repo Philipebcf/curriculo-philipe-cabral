@@ -233,11 +233,41 @@
                 text-align: center;
                 color: var(--cor-texto);
             }
+
+
+
+
+            @media screen and (max-width: 1023px) {
+                body {
+                    font-size: 14px;   
+                    background-color: var(--cor-fundo-lado-esquerdo);              
+                }
+
+                .lista-lateral-link,
+                .lateral-direito-titulo,
+                .lista-informações-item,
+                .objetivo-titulo,
+                .objetivo-texto,
+                .lista-item-titulo,
+                .lista-item,
+                hr
+                 {
+                    color: var(--cor-texto);
+                }
+
+                .lista-item {
+                    border: 1px solid var(--cor-texto);
+                    box-shadow: 0px 5px 5px var(--cor-fundo-item-titulo);
+                }
+            }
+
+
+
         
             @media screen and (min-width: 1024px){
 
                 body {
-                    font-size: 14px;
+                    font-size: 14px;              
                 }
                 .quebra-linha {
                     display: none;
